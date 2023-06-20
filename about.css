@@ -1,0 +1,64 @@
+.body {
+    background-image: url(images/phonebackground.png);
+    background-size: cover;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    width: 73.5%;
+    border-radius: 25px;
+    background: #CCE5FF;
+    padding: 20px;  
+    position: sticky;
+    left: 30%;
+    border: 3px solid black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #090979;
+    color: white;
+  }
+  
+  .active {
+    background-color: #090979;
+  }
+
+
+
+.imglogo {
+  position: absolute;
+  width: 18vw;
+  height: 20vh;
+  top: 1vh;
+  background-color: #CCE5FF;
+  border-radius: 25px;
+  border: 3px solid black}
+
+
+
+  .abouttext {
+    text-align: center;
+    background-color: #CCE5FF;
+    margin: auto;
+    width: 50%;
+    border-radius: 8.5%;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+    overflow: auto;}
